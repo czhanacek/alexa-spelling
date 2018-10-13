@@ -1,6 +1,6 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.6
+FROM tiangolo/uwsgi-nginx:python3.6
 EXPOSE 80
-RUN ls
+RUN rm *
 RUN git clone https://github.com/czhanacek/alexa-spelling .
 RUN pip install pipenv
 RUN pipenv install
