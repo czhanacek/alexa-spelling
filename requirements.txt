@@ -1,0 +1,28 @@
+################################################################################
+# This requirements file has been automatically generated from `Pipfile` with
+# `pipenv-to-requirements`
+#
+#
+# This has been done to maintain backward compatibility with tools and services
+# that do not support `Pipfile` yet.
+#
+# Do NOT edit it directly, use `pipenv install [-d]` to modify `Pipfile` and
+# `Pipfile.lock` and then regenerate `requirements*.txt`.
+################################################################################
+
+aniso8601==3.0.2
+asn1crypto==0.24.0
+cffi==1.11.5
+click==7.0
+cryptography==2.3.1
+flask-ask==0.8.9
+flask==1.0.2
+idna==2.7
+itsdangerous==0.24
+jinja2==2.10
+markupsafe==1.0
+pycparser==2.19
+pyopenssl==18.0.0
+pyyaml==3.13
+six==1.11.0
+werkzeug==0.14.1

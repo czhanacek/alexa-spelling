@@ -1,0 +1,16 @@
+AUTHORS
+ChangeLog
+Dockerfile
+Pipfile
+README.md
+app.py
+setup.cfg
+setup.py
+templates.yml
+alexa_spelling.egg-info/PKG-INFO
+alexa_spelling.egg-info/SOURCES.txt
+alexa_spelling.egg-info/dependency_links.txt
+alexa_spelling.egg-info/not-zip-safe
+alexa_spelling.egg-info/pbr.json
+alexa_spelling.egg-info/requires.txt
+alexa_spelling.egg-info/top_level.txt

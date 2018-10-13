@@ -1,10 +1,11 @@
-FROM tiangolo/uwsgi-nginx-flask:flask
+FROM tiangolo/uwsgi-nginx-flask:python3.6
 EXPOSE 80
-RUN git clone https://github.com/czhanacek/alexa-spelling
+RUN ls
+RUN git clone https://github.com/czhanacek/alexa-spelling .
 RUN pip install pipenv
-RUN pipenv install --system --deploy --ignore-pipfile
-RUN export FLASK_APP=server.py
-CMD ["flask", "run"]
+RUN pipenv install
+RUN export FLASK_APP=app.py
+CMD ["pipenv", "run", "flask", "run"]
 
 
 
